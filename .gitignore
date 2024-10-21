@@ -1,0 +1,41 @@
+# Ignore all .log files
+*.log
+
+# Ignore the folder named temp
+/data-process/
+/data-release/
+/FleissKappa/
+/process/
+
+# Ignore all files in the build folder
+/MERTools/
+
+# Ignore environment files
+.env
+annotation_large.json
+baseline-paper.pdf
+cmd.md
+complex_data_indexed_visual.json
+complex_data_indexed.json
+complex_data.json
+copyall.py
+evalution.py
+ext.py
+extract_segment.py
+feature_cmd.md
+main-baseline.py
+old-main-baseline.py
+main-corrupt.py
+rename.py
+time.py
+test1_corpus-label-visual.csv
+test1_label.csv
+test1_label1.csv
+train_corpus-label-visual.csv
+
+
+README.md
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
